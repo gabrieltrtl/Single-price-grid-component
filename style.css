@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Karla", sans-serif;
+  background: #E6EFF5;
+  
+}
+
+main {
+  max-width: 19.4375rem;
+  margin: 72px auto 62px auto;
+
+}
+
+.container {
+  padding: 24px;
+}
+
+.community  {
+  background: #FFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.subscription {
+  background: #2AB3B1;
+}
+
+.why-us {
+  background: #4BBFBC;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.community h2 {
+  color: #2AB3B1;
+  margin-bottom: 24px;
+}
+
+.community p:nth-child(2) {
+  color: #C0DF33;
+}
+
+
+.subscription, .why-us {
+  color: #FFF;
+}
+
+.subscription h2, .why-us h2 {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+
